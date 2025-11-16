@@ -90,7 +90,7 @@ img {
 
 
 body {
-  background-image: url("logoline.png");
+  background-image: url("image/logoline.png");
   background-size:550px;     /* 背景 */
   background-position: 980px 100px;
   background-repeat: no-repeat;
@@ -281,5 +281,6 @@ footer p {
     margin-top: 10px;
   }
 }
+
 
 
