@@ -262,7 +262,7 @@ footer p {
   height: 40px;
 }
 
-/* === 手機版 === */
+/* === 響應式（手機版） === */
 @media (max-width: 480px) {
   header {
     flex-direction: column;   /* 由水平改成垂直排列 */
@@ -281,6 +281,7 @@ footer p {
     margin-top: 10px;
   }
 }
+
 
 
 
