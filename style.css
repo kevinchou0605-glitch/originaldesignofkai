@@ -272,20 +272,14 @@ footer p {
   }
 
   header h1 {
-    font-size: 28px;          /* 手機版字體縮小 */
+    font-size: 25px;          /* 手機版字體縮小 */
     margin: 0;
   }
 
   nav ul {
     padding: 0;
     margin-top: 10px;
-    flex-direction: column;   /* 導覽列垂直排列 */
-    align-items: center;
-  }
-
-  nav a {
-    padding: 8px 12px;        /* 縮小按鈕內距 */
-    font-size: 20px;          /* 字體縮小 */
   }
 }
+
 
