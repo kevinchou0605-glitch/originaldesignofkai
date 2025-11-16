@@ -24,11 +24,11 @@ header h1 {
   color: rgb(255, 255, 255);
 }
 
-/* 左邊 Logo + 標題（水平排列） */
+/*Logo標題*/
 .logo-box {
   display: flex;
-  flex-direction: row;    /* 確保水平 */
-  align-items: center;    /* 讓文字與 logo 垂直置中 */
+  flex-direction: row;    /* 水平 */
+  align-items: center;    /* 置中 */
   gap: 10px;              /* Logo 與標題的距離 */
   margin-left: 25px
 }
@@ -38,7 +38,7 @@ header h1 {
 }
 
 
-/* === 導覽列 === */
+/* === nav === */
 nav ul {
   font-size: 28px;
   list-style: none;
@@ -60,16 +60,16 @@ nav a {
 
 }
 nav a:hover {
-  color: #8a742c;          /* 改文字顏色 */
+  color: #8a742c;         
   font-size: 30px;
   border: 2px solid #8c909d;  
-  border-radius: 5px;      /* 可加圓角 */
-  transition: 0.3s;        /* 平滑過渡 */
+  border-radius: 5px;      
+  transition: 0.3s;       
 }
 
 /* === 統一調整 === */
 
-img {                /* === 圖片 === */
+img {                
   width: 300px;
   height: auto;
   border-radius: 10px;
@@ -82,7 +82,7 @@ img {                /* === 圖片 === */
 #section3 ul,
 #section4 ul {
   font-size: 25px;
-  list-style: none;  /* 移除圓點 */
+  list-style: none;  /* 項目點 */
   line-height: 2.0;
   padding-left: 0;
   text-align: center;
@@ -91,7 +91,7 @@ img {                /* === 圖片 === */
 
 body {
   background-image: url("logoline.png");
-  background-size:550px;     /* 讓背景撐滿畫面 */
+  background-size:550px;     /* 背景 */
   background-position: 980px 100px;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -113,14 +113,14 @@ main h2 {
 }
 
 .about{
-   /* background-color: rgba(255, 255, 255, 0.1);   半透明底色 */
-  padding: 20px;      /* 內距 */
-  border-radius: 10px; /* 圓角 */
-  width: 80%;         /* 框寬度 */
+   /* background-color: rgba(255, 255, 255, 0.1);   
+  padding: 20px;      
+  border-radius: 10px; 
+  width: 80%;         /* 框寬 */
   padding-left: 0;
-  margin-left: 0;     /* ← 改成靠左 */
-  margin-right: auto; /* ← 讓右邊自動延伸 */
-  text-align: left;   /* ← 標題文字靠左 */
+  margin-left: 0;     /* 靠左 */
+  margin-right: auto; /* 右邊自動 */
+  text-align: left;   
 }
 
 main h3 {
@@ -130,16 +130,16 @@ main h3 {
 }
 
 .totop{
-  position: fixed;       /* 固定在畫面上，而不是跟著滑動 */
-  bottom: 20px;          /* 距離底部 20px */
-  right: 20px;           /* 距離右側 20px */
+  position: fixed;       /* 固定在畫面上不會動*/
+  bottom: 20px;         
+  right: 20px;           
   background-color: #151b20;
   color: white;
   padding: 15px 20px;
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
-  z-index: 999;          /* 永遠浮在最上層 */
+  z-index: 999;          /* 最上層 */
   transition: 0.3s;
 }
 
@@ -148,7 +148,7 @@ main h3 {
   color: #151b20;
 }
 
-/* === 主內容區 === */
+/* ===main=== */
 
 #section1{
   background-color: rgba(42, 52, 59, 0.7);
@@ -201,19 +201,19 @@ main h3 {
   margin:  auto;           /* 確保置中 */
   display: flex;
   flex-direction: column; /* 垂直排列 */
-  align-items: center;    /* 框內內容置中 */
+  align-items: center;    /* 置中 */
 }
 
 .sectionbox ul :hover {
-  color: #8a742c;          /* 改文字顏色 */
+  color: #8a742c;         
   font-size: 30px;
   border: 2px solid #8c909d;  
   padding: 10px;
-  border-radius: 5px;      /* 可加圓角 */
-  transition: 0.3s;        /* 平滑過渡 */
+  border-radius: 5px;      
+  transition: 0.3s;        
 }
 
-/* 讓 h2 在 section 內置中 */
+
 .section5 h2 {
   display: flex;
   text-align: center;
@@ -226,15 +226,14 @@ main h3 {
 .two-columns {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
+  gap: 0px;
 }
 
 .two-columns .left,
 .two-columns .right {
   flex: 1;
-  text-align: center; /* 讓整個區塊置中 */
+  text-align: center; 
 }
-
 
 
 
@@ -263,10 +262,10 @@ footer p {
   height: 40px;
 }
 
-/* === 響應式（手機版） === */
+/* === 手機版 === */
 @media (max-width: 480px) {
   header {
-    flex-direction: column;   /* 由水平改成垂直排列 */
+    flex-direction: column;   
     align-items: center;
     text-align: center;
     padding: 10px 0;
@@ -282,3 +281,4 @@ footer p {
     margin-top: 10px;
   }
 }
+
