@@ -265,21 +265,27 @@ footer p {
 /* === 手機版 === */
 @media (max-width: 480px) {
   header {
-    flex-direction: column;   
+    flex-direction: column;   /* 由水平改成垂直排列 */
     align-items: center;
     text-align: center;
     padding: 10px 0;
   }
 
   header h1 {
-    font-size: 20px;          /* 手機版字體縮小 */
+    font-size: 28px;          /* 手機版字體縮小 */
     margin: 0;
   }
 
   nav ul {
     padding: 0;
     margin-top: 10px;
+    flex-direction: column;   /* 導覽列垂直排列 */
+    align-items: center;
+  }
+
+  nav a {
+    padding: 8px 12px;        /* 縮小按鈕內距 */
+    font-size: 20px;          /* 字體縮小 */
   }
 }
-
 
