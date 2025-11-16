@@ -272,7 +272,7 @@ footer p {
   }
 
   header h1 {
-    font-size: 25px;          /* 手機版字體縮小 */
+    font-size: 20px;          /* 手機版字體縮小 */
     margin: 0;
   }
 
@@ -281,4 +281,5 @@ footer p {
     margin-top: 10px;
   }
 }
+
 
